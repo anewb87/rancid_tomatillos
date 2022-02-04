@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import AllMovies from './Components/AllMovies/AllMovies';
 import movieData from './movieData';
-import './App.scss';
 import './Styles/reset.scss'
+import './App.scss';
 
 class App extends Component {
   constructor() {
@@ -14,7 +14,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.setState({movies: movieData.movies })
+    this.setState({movies: movieData.movies})
   }
 
   render() {

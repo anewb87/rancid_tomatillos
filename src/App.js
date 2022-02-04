@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import AllMovies from './Components/AllMovies/AllMovies';
 import movieData from './movieData';
+import './Styles/reset.scss';
 import './App.scss';
-import './Styles/reset.scss'
 
 class App extends Component {
   constructor() {

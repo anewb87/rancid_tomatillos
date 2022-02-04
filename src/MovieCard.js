@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-// import './MovieCard.css'
+import React from 'react';
+import './MovieCard.scss'
 
 const MovieCard = ({id, title, rating, poster}) => {
     return (
-        <section id={id}>
-            <img src={poster} alt={title} />
+        <section id={id} className='card'>
+            <img className='card-image' src={poster} alt={title} />
             <p>{title}</p>
-            <p>{rating}</p>
+            <p>{rating.toFixed(1)}</p>
         </section>
     )
 }

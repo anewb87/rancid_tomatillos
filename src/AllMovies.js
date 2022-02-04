@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import MovieCard from './MovieCard';
-// import './AllMovies.css';
+import './AllMovies.scss';
 
 const AllMovies = ({movies}) => {
 
@@ -18,7 +18,7 @@ const AllMovies = ({movies}) => {
         )
     })
     return (
-        <div>
+        <div className='all-movies'>
             {allMoviesList}
         </div>
     )

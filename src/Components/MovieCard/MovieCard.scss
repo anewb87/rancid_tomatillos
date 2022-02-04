@@ -5,14 +5,27 @@
 
 .card {
   box-sizing: border-box;
-  border: 3px solid white;
   padding: 10px;
   height: 400px;
   width: 250px;
   place-self: center;
   display: flex;
   flex-direction: column;
+
+  &:hover {
+    border: 3px solid white;
+    transform: scale(1.3);
+  }
+
+  // .description {
+  //   display: none;
+  
+  //   &:hover {
+  //     display: block;
+  //   }
+  // }
 }
+
 
 .card-image {
     height: 400px;

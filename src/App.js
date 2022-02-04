@@ -1,5 +1,7 @@
 // import logo from './logo.svg';
 import React, {Component} from 'react';
+import AllMovies from './AllMovies';
+// import MovieCard from './MovieCard';
 import movieData from './movieData';
 import './App.css';
 
@@ -28,7 +30,8 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      movies: [],
+      // movies: [],
+      movies: movieData.movies,
       singleMovieView: false,
     }
   }
